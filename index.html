@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jyoti Learning Centre | Best Coaching Classes from Jr. KG to 6th Standard | Charholi Phata, Pune</title>
+<meta name="description" content="Jyoti Learning Centre provides personalized coaching for Jr. KG to 6th Standard students in Charholi Phata, Pune. Small batches, experienced teachers, regular assessments, and activity-based learning to build strong academic foundations.">
+<meta name="keywords" content="Jyoti Learning Centre, Coaching Classes Charholi Phata, Tuition Classes Pune, Jr KG Coaching, Primary School Tuition, Best Coaching Classes Near Alandi Road, Kids Learning Centre">
+<meta property="og:title" content="Jyoti Learning Centre — Building Strong Foundations for Bright Futures">
+<meta property="og:description" content="Personalized coaching for Jr. KG to 6th Standard in Charholi Phata, Pune.">
+<meta name="theme-color" content="#2563EB">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+<script>
+  tailwind = { config: {
+    darkMode: 'class',
+    theme: { extend: {
+      colors: { primary:'#2563EB', secondary:'#14B8A6', accent:'#F59E0B' },
+      fontFamily: { display:['Poppins','sans-serif'], body:['Nunito','sans-serif'] },
+      borderRadius: { '2xl':'1.25rem', '3xl':'1.75rem' }
+    } }
+  }};
+</script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "Jyoti Learning Centre",
+  "description": "Personalized coaching for Jr. KG to 6th Standard students in Charholi Phata, Pune.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Flat 804, Triaa Punyavastu, Alandi Road, Charholi Phata",
+    "addressLocality": "Pune",
+    "postalCode": "412105",
+    "addressCountry": "IN"
+  },
+  "telephone": "+91-7756865207",
+  "email": "jyotisultane@gmail.com"
+}
+</script>
+<style>
+  :root{
+    --bg:#ffffff; --bg-soft:#F7FAFC; --surface:#ffffff; --text:#0F172A; --text-soft:#5B6472;
+    --border:rgba(15,23,42,0.08); --glass:rgba(255,255,255,0.6); --glass-border:rgba(255,255,255,0.4);
+  }
+  html.dark{
+    --bg:#0A0F1C; --bg-soft:#0F1626; --surface:#131C2E; --text:#EEF2FF; --text-soft:#93A0B8;
+    --border:rgba(255,255,255,0.08); --glass:rgba(19,28,46,0.55); --glass-border:rgba(255,255,255,0.08);
+  }
+  *{scroll-behavior:smooth;}
+  body{background:var(--bg); color:var(--text); font-family:'Nunito',sans-serif; transition:background .4s ease,color .4s ease;}
+  h1,h2,h3,h4,.font-display{font-family:'Poppins',sans-serif;}
+  .bg-soft{background:var(--bg-soft);}
+  .surface{background:var(--surface); border:1px solid var(--border);}
+  .text-soft{color:var(--text-soft);}
+  .border-token{border-color:var(--border);}
+  .glass{background:var(--glass); border:1px solid var(--glass-border); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px);}
+
+  ::-webkit-scrollbar{width:10px;} ::-webkit-scrollbar-track{background:transparent;}
+  ::-webkit-scrollbar-thumb{background:#94A3B8;border-radius:8px;}
+
+  #scroll-progress{position:fixed; top:0; left:0; height:3px; background:linear-gradient(90deg,#2563EB,#14B8A6,#F59E0B); z-index:100; width:0%; transition:width .1s linear;}
+
+  .reveal{opacity:0; transform:translateY(28px); transition:opacity .7s cubic-bezier(.16,1,.3,1), transform .7s cubic-bezier(.16,1,.3,1);}
+  .reveal.in{opacity:1; transform:translateY(0);}
+  .reveal-delay-1{transition-delay:.08s;} .reveal-delay-2{transition-delay:.16s;} .reveal-delay-3{transition-delay:.24s;} .reveal-delay-4{transition-delay:.32s;}
+
+  @keyframes floaty{0%,100%{transform:translateY(0) rotate(0deg);}50%{transform:translateY(-16px) rotate(4deg);}}
+  .float-slow{animation:floaty 6s ease-in-out infinite;}
+  .float-slower{animation:floaty 8s ease-in-out infinite;}
+  .float-slowest{animation:floaty 10s ease-in-out infinite;}
+
+  @keyframes blob{0%,100%{border-radius:42% 58% 65% 35%/45% 40% 60% 55%;}50%{border-radius:60% 40% 35% 65%/55% 60% 40% 45%;}}
+  .blob{animation:blob 9s ease-in-out infinite;}
+
+  @keyframes dash{to{stroke-dashoffset:0;}}
+  .path-draw{stroke-dasharray:1400; stroke-dashoffset:1400; animation:dash 2.4s ease forwards;}
+
+  .grain::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.35;
+    background-image:radial-gradient(rgba(37,99,235,.10) 1px, transparent 1px); background-size:22px 22px;}
+
+  .course-card{transition:transform .4s cubic-bezier(.16,1,.3,1), box-shadow .4s ease;}
+  .course-card:hover{transform:translateY(-8px);}
+  .course-body{max-height:0; overflow:hidden; transition:max-height .45s ease, opacity .35s ease; opacity:0;}
+  .course-card:hover .course-body, .course-card.expanded .course-body{max-height:220px; opacity:1;}
+
+  .accordion-panel{max-height:0; overflow:hidden; transition:max-height .4s ease;}
+
+  .stitch{stroke-dasharray:6 8;}
+
+  .counter{font-variant-numeric:tabular-nums;}
+
+  #whatsapp-float, #back-to-top{transition:transform .3s ease, opacity .3s ease;}
+  #back-to-top.show{opacity:1; transform:translateY(0); pointer-events:auto;}
+  #back-to-top{opacity:0; transform:translateY(16px); pointer-events:none;}
+
+  .nav-link{position:relative;}
+  .nav-link::after{content:"";position:absolute;left:0;bottom:-4px;height:2px;width:0;background:var(--tw-gradient-stops,#2563EB);background:linear-gradient(90deg,#2563EB,#14B8A6);transition:width .3s ease;}
+  .nav-link:hover::after{width:100%;}
+
+  .lightbox{transition:opacity .3s ease; }
+
+  @media (prefers-reduced-motion: reduce){
+    .float-slow,.float-slower,.float-slowest,.blob{animation:none !important;}
+    .reveal{transition:none; opacity:1; transform:none;}
+  }
+</style>
+</head>
+<body class="font-body antialiased overflow-x-hidden">
+
+<div id="scroll-progress"></div>
+
+<!-- LOADER -->
+<div id="loader" class="fixed inset-0 z-[200] bg-white dark:bg-[#0A0F1C] flex items-center justify-center transition-opacity duration-700">
+  <div class="flex flex-col items-center gap-4">
+    <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-primary via-secondary to-accent blob"></div>
+    <p class="font-display font-semibold text-sm tracking-widest text-soft uppercase">Jyoti Learning Centre</p>
+  </div>
+</div>
+
+<!-- NAV -->
+<header id="site-header" class="fixed top-0 inset-x-0 z-50 transition-all duration-300">
+  <nav class="glass mx-3 mt-3 rounded-2xl px-4 sm:px-6 py-3 flex items-center justify-between shadow-sm">
+    <a href="#home" class="flex items-center gap-2.5">
+      <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center shadow-md shadow-primary/20">
+        <i data-lucide="graduation-cap" class="w-5 h-5 text-white"></i>
+      </div>
+      <span class="font-display font-bold text-[15px] sm:text-lg leading-tight">Jyoti Learning<br class="sm:hidden"> Centre</span>
+    </a>
+    <div class="hidden lg:flex items-center gap-7 font-display text-sm font-medium">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#courses" class="nav-link">Courses</a>
+      <a href="#why-us" class="nav-link">Why Us</a>
+      <a href="#methodology" class="nav-link">Method</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+    <div class="flex items-center gap-2 sm:gap-3">
+      <button id="theme-toggle" aria-label="Toggle dark mode" class="w-9 h-9 rounded-full surface flex items-center justify-center hover:scale-105 transition">
+        <i data-lucide="sun" class="w-4 h-4 hidden dark:block"></i>
+        <i data-lucide="moon" class="w-4 h-4 dark:hidden"></i>
+      </button>
+      <a href="#contact" class="hidden sm:inline-flex font-display text-sm font-semibold bg-primary hover:bg-primary/90 text-white px-4 py-2 rounded-full shadow-md shadow-primary/25 transition">Enroll Now</a>
+      <button id="menu-toggle" class="lg:hidden w-9 h-9 rounded-full surface flex items-center justify-center">
+        <i data-lucide="menu" class="w-5 h-5"></i>
+      </button>
+    </div>
+  </nav>
+  <!-- mobile menu -->
+  <div id="mobile-menu" class="hidden lg:hidden glass mx-3 mt-2 rounded-2xl p-5 flex flex-col gap-4 font-display font-medium text-sm">
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#courses" class="mobile-link">Courses</a>
+    <a href="#why-us" class="mobile-link">Why Us</a>
+    <a href="#methodology" class="mobile-link">Method</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+    <a href="#contact" class="bg-primary text-white text-center px-4 py-2.5 rounded-full mt-1">Enroll Now</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="relative pt-32 pb-20 sm:pt-40 sm:pb-28 bg-soft grain overflow-hidden">
+  <div class="absolute -top-24 -right-24 w-96 h-96 bg-primary/10 blob rounded-full blur-2xl"></div>
+  <div class="absolute -bottom-32 -left-24 w-96 h-96 bg-secondary/10 blob rounded-full blur-2xl"></div>
+
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-14 items-center relative">
+    <div class="reveal in">
+      <span class="inline-flex items-center gap-2 text-xs font-display font-semibold tracking-wide uppercase bg-accent/15 text-accent px-4 py-1.5 rounded-full">
+        <i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Jr. KG to 6th Standard
+      </span>
+      <h1 class="font-display font-extrabold text-4xl sm:text-5xl lg:text-[3.4rem] leading-[1.1] mt-5">
+        Building Strong Foundations for <span class="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">Bright Futures</span>
+      </h1>
+      <p class="text-soft text-base sm:text-lg mt-6 max-w-lg">
+        Personalized coaching for children from Jr. KG to 6th Standard, helping every student learn with confidence, curiosity, and care.
+      </p>
+      <div class="flex flex-wrap gap-3.5 mt-8">
+        <a href="#contact" class="font-display font-semibold bg-primary hover:bg-primary/90 text-white px-6 py-3.5 rounded-full shadow-lg shadow-primary/30 transition hover:-translate-y-0.5">Enroll Now</a>
+        <a href="#contact" class="font-display font-semibold surface hover:border-primary/40 px-6 py-3.5 rounded-full transition hover:-translate-y-0.5 flex items-center gap-2">
+          <i data-lucide="calendar-check" class="w-4 h-4 text-secondary"></i> Book a Free Demo
+        </a>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-12">
+        <div class="reveal reveal-delay-1 in">
+          <p class="font-display font-extrabold text-2xl sm:text-3xl text-primary"><span class="counter" data-target="6" data-suffix="+">0</span></p>
+          <p class="text-xs text-soft mt-1">Happy Students</p>
+        </div>
+        <div class="reveal reveal-delay-2 in">
+          <p class="font-display font-extrabold text-2xl sm:text-3xl text-secondary"><span class="counter" data-target="95" data-suffix="%">0</span></p>
+          <p class="text-xs text-soft mt-1">Parent Satisfaction</p>
+        </div>
+        <div class="reveal reveal-delay-3 in">
+          <p class="font-display font-extrabold text-2xl sm:text-3xl text-accent"><span class="counter" data-target="1" data-suffix="+">0</span></p>
+          <p class="text-xs text-soft mt-1">Years of Excellence</p>
+        </div>
+        <div class="reveal reveal-delay-4 in">
+          <p class="font-display font-extrabold text-2xl sm:text-3xl text-primary">Small</p>
+          <p class="text-xs text-soft mt-1">Batch Sizes</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="relative reveal in reveal-delay-2 flex justify-center">
+      <div class="absolute w-72 h-72 sm:w-96 sm:h-96 bg-gradient-to-br from-primary/20 via-secondary/15 to-accent/20 blob rounded-full"></div>
+      <svg viewBox="0 0 400 400" class="relative w-72 h-72 sm:w-96 sm:h-96">
+        <circle cx="200" cy="200" r="150" fill="none" stroke="#2563EB" stroke-opacity="0.15" stroke-width="2"/>
+        <g class="float-slower">
+          <rect x="120" y="150" width="160" height="120" rx="14" fill="#2563EB"/>
+          <rect x="120" y="150" width="160" height="18" rx="9" fill="#1D4ED8"/>
+          <line x1="150" y1="188" x2="250" y2="188" stroke="white" stroke-opacity=".6" stroke-width="4" stroke-linecap="round"/>
+          <line x1="150" y1="208" x2="230" y2="208" stroke="white" stroke-opacity=".6" stroke-width="4" stroke-linecap="round"/>
+          <line x1="150" y1="228" x2="245" y2="228" stroke="white" stroke-opacity=".4" stroke-width="4" stroke-linecap="round"/>
+        </g>
+        <g class="float-slow" style="transform-origin:300px 130px;">
+          <circle cx="300" cy="130" r="30" fill="#14B8A6"/>
+          <path d="M288 130l8 8 16-16" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g class="float-slowest" style="transform-origin:100px 250px;">
+          <circle cx="100" cy="250" r="26" fill="#F59E0B"/>
+          <path d="M88 254l8-16 16 8-8 16z" fill="white" opacity=".9"/>
+        </g>
+        <g class="float-slow" style="transform-origin:320px 260px;">
+          <rect x="300" y="240" width="40" height="40" rx="10" fill="white" stroke="#2563EB" stroke-width="3"/>
+          <path d="M310 258h20M310 266h14" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+        </g>
+        <g class="float-slower" style="transform-origin:110px 130px;">
+          <path d="M90 140l20-12 20 12v22l-20 12-20-12z" fill="none" stroke="#F59E0B" stroke-width="3"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-16 sm:py-24">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 grid lg:grid-cols-5 gap-14 items-start">
+    <div class="lg:col-span-2 reveal">
+      <span class="text-xs font-display font-semibold uppercase tracking-wide text-secondary">About Us</span>
+      <h2 class="font-display font-bold text-3xl sm:text-4xl mt-3 leading-tight">A warm, focused place to fall in love with learning</h2>
+      <p class="text-soft mt-5 leading-relaxed">
+        At Jyoti Learning Centre, every child is known by name, not by roll number. We keep batches small so teachers can notice
+        exactly where a student is stuck — and exactly what makes them light up. Our goal isn't just finished homework; it's
+        real understanding, steady confidence, and a genuine curiosity that carries into every grade ahead.
+      </p>
+      <div class="flex items-center gap-4 mt-8">
+        <div class="flex -space-x-3">
+          <div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white font-display text-xs font-bold ring-2 ring-white dark:ring-[#0A0F1C]">JS</div>
+          <div class="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-white font-display text-xs font-bold ring-2 ring-white dark:ring-[#0A0F1C]">RK</div>
+          <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-white font-display text-xs font-bold ring-2 ring-white dark:ring-[#0A0F1C]">AP</div>
+        </div>
+        <p class="text-sm text-soft">Experienced, caring faculty</p>
+      </div>
+    </div>
+
+    <div class="lg:col-span-3 grid sm:grid-cols-2 gap-5">
+      <div class="about-card surface rounded-2xl p-6 reveal reveal-delay-1">
+        <div class="w-11 h-11 rounded-xl bg-primary/10 flex items-center justify-center mb-4"><i data-lucide="user-round-check" class="w-5 h-5 text-primary"></i></div>
+        <h3 class="font-display font-semibold">Personalized Attention</h3>
+        <p class="text-sm text-soft mt-1.5">Every child's pace and needs are tracked individually.</p>
+      </div>
+      <div class="about-card surface rounded-2xl p-6 reveal reveal-delay-2">
+        <div class="w-11 h-11 rounded-xl bg-secondary/10 flex items-center justify-center mb-4"><i data-lucide="brain" class="w-5 h-5 text-secondary"></i></div>
+        <h3 class="font-display font-semibold">Strong Conceptual Learning</h3>
+        <p class="text-sm text-soft mt-1.5">We build understanding first, memorization second.</p>
+      </div>
+      <div class="about-card surface rounded-2xl p-6 reveal reveal-delay-3">
+        <div class="w-11 h-11 rounded-xl bg-accent/10 flex items-center justify-center mb-4"><i data-lucide="smile" class="w-5 h-5 text-accent"></i></div>
+        <h3 class="font-display font-semibold">Friendly Environment</h3>
+        <p class="text-sm text-soft mt-1.5">A warm space where children feel safe to ask questions.</p>
+      </div>
+      <div class="about-card surface rounded-2xl p-6 reveal reveal-delay-4">
+        <div class="w-11 h-11 rounded-xl bg-primary/10 flex items-center justify-center mb-4"><i data-lucide="graduation-cap" class="w-5 h-5 text-primary"></i></div>
+        <h3 class="font-display font-semibold">Experienced Teachers</h3>
+        <p class="text-sm text-soft mt-1.5">Faculty trained in early and primary childhood learning.</p>
+      </div>
+      <div class="about-card surface rounded-2xl p-6 reveal reveal-delay-1">
+        <div class="w-11 h-11 rounded-xl bg-secondary/10 flex items-center justify-center mb-4"><i data-lucide="clipboard-check" class="w-5 h-5 text-secondary"></i></div>
+        <h3 class="font-display font-semibold">Regular Assessments</h3>
+        <p class="text-sm text-soft mt-1.5">Weekly checks keep small gaps from becoming big ones.</p>
+      </div>
+      <div class="about-card surface rounded-2xl p-6 reveal reveal-delay-2">
+        <div class="w-11 h-11 rounded-xl bg-accent/10 flex items-center justify-center mb-4"><i data-lucide="message-circle-heart" class="w-5 h-5 text-accent"></i></div>
+        <h3 class="font-display font-semibold">Parent Communication</h3>
+        <p class="text-sm text-soft mt-1.5">Regular updates so you always know how your child is doing.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COURSES -->
+<section id="courses" class="py-12 sm:py-16 bg-soft">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8">
+    <div class="text-center max-w-2xl mx-auto reveal">
+      <span class="text-xs font-display font-semibold uppercase tracking-wide text-primary">Courses</span>
+      <h2 class="font-display font-bold text-3xl sm:text-4xl mt-3">One programme for every stage of early learning</h2>
+      <p class="text-soft mt-4">Hover a grade to see what's covered — concepts build deliberately from one year to the next.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-14" id="course-grid"></div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section id="why-us" class="py-12 sm:py-16">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8">
+    <div class="text-center max-w-2xl mx-auto reveal">
+      <span class="text-xs font-display font-semibold uppercase tracking-wide text-secondary">Why Choose Us</span>
+      <h2 class="font-display font-bold text-3xl sm:text-4xl mt-3">What makes learning here different</h2>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-14" id="why-grid"></div>
+  </div>
+</section>
+
+<!-- METHODOLOGY -->
+<section id="methodology" class="py-12 sm:py-16 bg-soft overflow-hidden">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8">
+    <div class="text-center max-w-2xl mx-auto reveal">
+      <span class="text-xs font-display font-semibold uppercase tracking-wide text-accent">Our Methodology</span>
+      <h2 class="font-display font-bold text-3xl sm:text-4xl mt-3">A simple loop, followed every single week</h2>
+    </div>
+
+    <div class="relative mt-16">
+      <svg class="hidden md:block absolute top-14 left-0 w-full" height="6" viewBox="0 0 1000 6" preserveAspectRatio="none">
+        <line x1="0" y1="3" x2="1000" y2="3" stroke="#94A3B8" stroke-opacity=".35" stroke-width="2" class="stitch"/>
+      </svg>
+      <div class="grid md:grid-cols-4 gap-8 relative">
+        <div class="text-center reveal reveal-delay-1">
+          <div class="w-16 h-16 mx-auto rounded-2xl bg-primary text-white flex items-center justify-center shadow-lg shadow-primary/30"><i data-lucide="book-open" class="w-7 h-7"></i></div>
+          <h3 class="font-display font-semibold mt-5">Learn</h3>
+          <p class="text-sm text-soft mt-1.5 max-w-[190px] mx-auto">New concepts introduced with stories and visuals.</p>
+        </div>
+        <div class="text-center reveal reveal-delay-2">
+          <div class="w-16 h-16 mx-auto rounded-2xl bg-secondary text-white flex items-center justify-center shadow-lg shadow-secondary/30"><i data-lucide="pencil-line" class="w-7 h-7"></i></div>
+          <h3 class="font-display font-semibold mt-5">Practice</h3>
+          <p class="text-sm text-soft mt-1.5 max-w-[190px] mx-auto">Guided worksheets and activities build fluency.</p>
+        </div>
+        <div class="text-center reveal reveal-delay-3">
+          <div class="w-16 h-16 mx-auto rounded-2xl bg-accent text-white flex items-center justify-center shadow-lg shadow-accent/30"><i data-lucide="clipboard-list" class="w-7 h-7"></i></div>
+          <h3 class="font-display font-semibold mt-5">Assess</h3>
+          <p class="text-sm text-soft mt-1.5 max-w-[190px] mx-auto">Short weekly tests show exactly what's landed.</p>
+        </div>
+        <div class="text-center reveal reveal-delay-4">
+          <div class="w-16 h-16 mx-auto rounded-2xl bg-gradient-to-br from-primary to-secondary text-white flex items-center justify-center shadow-lg shadow-primary/30"><i data-lucide="trophy" class="w-7 h-7"></i></div>
+          <h3 class="font-display font-semibold mt-5">Excel</h3>
+          <p class="text-sm text-soft mt-1.5 max-w-[190px] mx-auto">Gaps are closed early, and confidence compounds.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-12 sm:py-16">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-12">
+    <div class="reveal">
+      <span class="text-xs font-display font-semibold uppercase tracking-wide text-secondary">Contact</span>
+      <h2 class="font-display font-bold text-3xl sm:text-4xl mt-3">Come say hello, or book a free demo class</h2>
+      <p class="text-soft mt-4">We're happy to answer questions about batches, timings, and fees — call, message, or visit us directly.</p>
+
+      <div class="space-y-4 mt-8">
+        <div class="flex items-start gap-3">
+          <div class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center shrink-0"><i data-lucide="map-pin" class="w-4.5 h-4.5 text-primary"></i></div>
+          <p class="text-sm text-soft leading-relaxed">Flat 804, Triaa Punyavastu, Alandi Road, Charholi Phata, Pune – 412105</p>
+        </div>
+      </div>
+
+      <div class="grid sm:grid-cols-2 gap-3 mt-7">
+        <a href="tel:+917756865207" class="flex items-center gap-3 surface rounded-2xl px-5 py-4 hover:border-primary/40 transition">
+          <i data-lucide="phone" class="w-4.5 h-4.5 text-primary"></i>
+          <span class="text-sm font-semibold font-display">Call Now</span>
+        </a>
+        <a href="https://wa.me/917756865207" target="_blank" class="flex items-center gap-3 surface rounded-2xl px-5 py-4 hover:border-secondary/40 transition">
+          <i data-lucide="message-circle" class="w-4.5 h-4.5 text-secondary"></i>
+          <span class="text-sm font-semibold font-display">WhatsApp</span>
+        </a>
+        <a href="https://www.google.com/maps?q=Triaa+Punyavastu+Alandi+Road+Charholi+Phata+Pune+412105" target="_blank" class="flex items-center gap-3 surface rounded-2xl px-5 py-4 hover:border-accent/40 transition">
+          <i data-lucide="navigation" class="w-4.5 h-4.5 text-accent"></i>
+          <span class="text-sm font-semibold font-display">Get Directions</span>
+        </a>
+        <a href="mailto:jyotisultane@gmail.com" class="flex items-center gap-3 surface rounded-2xl px-5 py-4 hover:border-primary/40 transition">
+          <i data-lucide="mail" class="w-4.5 h-4.5 text-primary"></i>
+          <span class="text-sm font-semibold font-display">Email Us</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="reveal reveal-delay-2 rounded-3xl overflow-hidden surface h-80 lg:h-full min-h-[320px]">
+      <iframe title="Jyoti Learning Centre location" class="w-full h-full grayscale-[15%]" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=Triaa+Punyavastu+Alandi+Road+Charholi+Phata+Pune+412105&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-soft border-t border-token pt-16 pb-8">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+    <div>
+      <div class="flex items-center gap-2.5">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center"><i data-lucide="graduation-cap" class="w-5 h-5 text-white"></i></div>
+        <span class="font-display font-bold">Jyoti Learning Centre</span>
+      </div>
+      <p class="text-sm text-soft mt-4 max-w-xs">Building strong foundations for bright futures — Jr. KG to 6th Standard.</p>
+      <div class="flex gap-3 mt-5">
+        <a href="#" aria-label="Facebook" class="w-9 h-9 rounded-full surface flex items-center justify-center hover:text-primary"><i data-lucide="facebook" class="w-4 h-4"></i></a>
+        <a href="#" aria-label="Instagram" class="w-9 h-9 rounded-full surface flex items-center justify-center hover:text-accent"><i data-lucide="instagram" class="w-4 h-4"></i></a>
+        <a href="https://wa.me/917756865207" aria-label="WhatsApp" class="w-9 h-9 rounded-full surface flex items-center justify-center hover:text-secondary"><i data-lucide="message-circle" class="w-4 h-4"></i></a>
+      </div>
+    </div>
+    <div>
+      <h4 class="font-display font-semibold text-sm mb-4">Explore</h4>
+      <ul class="space-y-2.5 text-sm text-soft">
+        <li><a href="#about" class="hover:text-primary">About</a></li>
+        <li><a href="#courses" class="hover:text-primary">Courses</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-display font-semibold text-sm mb-4">Admissions</h4>
+      <ul class="space-y-2.5 text-sm text-soft">
+        <li><a href="#contact" class="hover:text-primary">Book a Demo</a></li>
+        <li><a href="#contact" class="hover:text-primary">Enroll Now</a></li>
+        <li><a href="#courses" class="hover:text-primary">Grade Levels</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-display font-semibold text-sm mb-4">Contact</h4>
+      <ul class="space-y-2.5 text-sm text-soft">
+        <li>+91 7756865207</li>
+        <li>jyotisultane@gmail.com</li>
+        <li>Charholi Phata, Pune – 412105</li>
+      </ul>
+    </div>
+  </div>
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 mt-12 pt-6 border-t border-token text-xs text-soft text-center">
+    © <span id="year"></span> Jyoti Learning Centre. All rights reserved.
+  </div>
+</footer>
+
+<!-- FLOATING BUTTONS -->
+<a href="https://wa.me/917756865207" target="_blank" id="whatsapp-float" aria-label="Chat on WhatsApp"
+   class="fixed bottom-6 left-6 z-40 w-14 h-14 rounded-full bg-[#25D366] shadow-xl flex items-center justify-center hover:scale-105">
+  <i data-lucide="message-circle" class="w-6 h-6 text-white"></i>
+</a>
+<button id="back-to-top" aria-label="Back to top" class="fixed bottom-6 right-6 z-40 w-12 h-12 rounded-full bg-primary text-white shadow-xl flex items-center justify-center hover:scale-105">
+  <i data-lucide="arrow-up" class="w-5 h-5"></i>
+</button>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox fixed inset-0 z-[110] bg-black/80 hidden items-center justify-center p-6 opacity-0">
+  <button id="lightbox-close" class="absolute top-6 right-6 w-10 h-10 rounded-full bg-white/10 text-white flex items-center justify-center"><i data-lucide="x" class="w-5 h-5"></i></button>
+  <div id="lightbox-content" class="w-full max-w-lg aspect-square rounded-3xl flex flex-col items-center justify-center gap-4 text-white"></div>
+</div>
+
+<script>
+lucide.createIcons();
+document.getElementById('year').textContent = new Date().getFullYear();
+
+// loader
+window.addEventListener('load', ()=>{
+  setTimeout(()=>{ const l=document.getElementById('loader'); l.style.opacity='0'; setTimeout(()=>l.remove(),700); }, 350);
+});
+
+// theme toggle
+const root = document.documentElement;
+const themeBtn = document.getElementById('theme-toggle');
+root.classList.add('dark');
+if (localStorage.getItem('jlc-theme') === 'light') root.classList.remove('dark');
+themeBtn.addEventListener('click', ()=>{
+  root.classList.toggle('dark');
+  localStorage.setItem('jlc-theme', root.classList.contains('dark') ? 'dark' : 'light');
+});
+
+// mobile menu
+const menuBtn = document.getElementById('menu-toggle');
+const mobileMenu = document.getElementById('mobile-menu');
+menuBtn.addEventListener('click', ()=> mobileMenu.classList.toggle('hidden'));
+document.querySelectorAll('.mobile-link').forEach(a=>a.addEventListener('click', ()=>mobileMenu.classList.add('hidden')));
+
+// scroll progress + header shadow + back to top
+const progress = document.getElementById('scroll-progress');
+const backTop = document.getElementById('back-to-top');
+window.addEventListener('scroll', ()=>{
+  const h = document.documentElement;
+  const pct = (h.scrollTop) / (h.scrollHeight - h.clientHeight) * 100;
+  progress.style.width = pct + '%';
+  backTop.classList.toggle('show', h.scrollTop > 500);
+});
+backTop.addEventListener('click', ()=> window.scrollTo({top:0, behavior:'smooth'}));
+
+// reveal on scroll
+const io = new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+}, {threshold:.15});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+// animated counters
+const counterIO = new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      const el = e.target; const target = +el.dataset.target; const suffix = el.dataset.suffix || '';
+      let cur = 0; const step = Math.max(1, Math.ceil(target/40));
+      const t = setInterval(()=>{ cur += step; if(cur>=target){cur=target; clearInterval(t);} el.textContent = cur + suffix; }, 35);
+      counterIO.unobserve(el);
+    }
+  });
+}, {threshold:.5});
+document.querySelectorAll('.counter').forEach(el=>counterIO.observe(el));
+
+// ---- Courses data ----
+const courses = [
+  {grade:'Jr. KG', topics:['Concept Learning','Reading & Writing','Activity-Based Learning']},
+  {grade:'Sr. KG', topics:['Reading & Writing','Mathematics','Activity-Based Learning']},
+  {grade:'1st Standard', topics:['Mathematics','English','EVS']},
+  {grade:'2nd Standard', topics:['Mathematics','English','Homework Support']},
+  {grade:'3rd Standard', topics:['Mathematics','English','EVS','Revision Tests']},
+  {grade:'4th Standard', topics:['Mathematics','English','EVS','Revision Tests']},
+  {grade:'5th Standard', topics:['Mathematics','English','Homework Support','Revision Tests']},
+  {grade:'6th Standard', topics:['Mathematics','English','EVS','Revision Tests']},
+];
+const courseGrid = document.getElementById('course-grid');
+courses.forEach((c,i)=>{
+  const colors = ['primary','secondary','accent'];
+  const color = colors[i%3];
+  courseGrid.innerHTML += `
+    <div class="course-card surface rounded-2xl p-6 cursor-pointer reveal reveal-delay-${(i%4)+1}" tabindex="0">
+      <div class="w-11 h-11 rounded-xl bg-${color}/10 flex items-center justify-center mb-4"><i data-lucide="star" class="w-5 h-5 text-${color}"></i></div>
+      <h3 class="font-display font-semibold">${c.grade}</h3>
+      <p class="text-xs text-soft mt-1">Tap or hover for details</p>
+      <div class="course-body mt-3">
+        <ul class="text-sm text-soft space-y-1.5">
+          ${c.topics.map(t=>`<li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-${color}"></i>${t}</li>`).join('')}
+        </ul>
+      </div>
+    </div>`;
+});
+document.querySelectorAll('.course-card').forEach(c=>{
+  c.addEventListener('click', ()=> c.classList.toggle('expanded'));
+});
+
+// ---- Why choose us ----
+const whyItems = [
+  ['users','Small Batch Size','primary'],
+  ['user-round-check','Individual Attention','secondary'],
+  ['graduation-cap','Experienced Faculty','accent'],
+  ['clipboard-check','Weekly Assessments','primary'],
+  ['message-circle-heart','Parent Progress Updates','secondary'],
+  ['puzzle','Interactive Learning','accent'],
+  ['shield-check','Safe & Positive Environment','primary'],
+  ['piggy-bank','Affordable Fees','secondary'],
+];
+const whyGrid = document.getElementById('why-grid');
+whyItems.forEach(([icon,label,color],i)=>{
+  whyGrid.innerHTML += `
+    <div class="surface rounded-2xl p-6 text-center reveal reveal-delay-${(i%4)+1} hover:-translate-y-1 transition">
+      <div class="w-12 h-12 mx-auto rounded-xl bg-${color}/10 flex items-center justify-center mb-3"><i data-lucide="${icon}" class="w-5 h-5 text-${color}"></i></div>
+      <p class="font-display font-semibold text-sm">${label}</p>
+    </div>`;
+});
+
+lucide.createIcons();
+</script>
+</body>
+</html>
